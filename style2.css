@@ -1,0 +1,68 @@
+body{
+  background-color: #1eda69;
+  color: #e1d1d1;
+  justify-content: center;
+  margin-left: 500px;
+}
+
+.box{
+  height: 100px;
+  width: 100px;
+  background-color:#dc3716;
+  border: 5px solid white;
+  border-radius: 15px  30px ;
+  margin: 10px;
+  transition-duration: 3s;
+}
+#box1:hover{
+  transition: linear;
+  width: 250px;
+  transition: 1s;
+  box-shadow: 15px 10px 19px;
+  
+
+}
+#box2:hover{
+  height: 250px;
+  width: 250px;
+  transition: height 4s, width  3s;
+
+}
+#box3:hover{
+  transition: linear;
+  width: 250px;
+  transition: 1ms;
+
+}
+#box4:hover{
+  transition: linear;
+  width: 250px;
+  transition: 3s;
+
+}
+#box5:hover{
+  height: 450px;
+  width: 450px;
+  transition: height  4s, width 3s;
+
+}
+#box6:hover{
+  transition: linear;
+  width: 250px;
+  transition: 3s;
+
+}
+#box7:hover{
+  height: 350px;
+  width: 350px;
+  transition: height  4s, width  3s;
+
+}
+
+
+a{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 70px;
+}
